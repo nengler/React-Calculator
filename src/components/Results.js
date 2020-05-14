@@ -4,8 +4,9 @@ class Results extends Component {
   state = {};
   render() {
     return (
-      <div>
-        <h2>Inside results</h2>
+      <div className="results">
+        <h1 className="answer">{this.props.answer}</h1>
+        <h3 className="input">{this.props.userInput}</h3>
       </div>
     );
   }
